@@ -7,6 +7,7 @@
 
 std::mutex mu;
 
+/* To avoid Data Races use a mutex */
 void sharedPrint(std::string message, int id) {
 	/* We shouldn't just use mu alone because if an exception is thrown 
 	   between the lock and unlock then the resource will be locked forever.

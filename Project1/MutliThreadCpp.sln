@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1", "Project1\Project1.vc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MutexProjEx", "MutexProjEx\MutexProjEx.vcxproj", "{221AE46A-0965-4C35-9D37-D683D2BBB290}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MutexProjEx2", "MutexProjEx2\MutexProjEx2.vcxproj", "{4194033B-F187-4572-B5F6-9CCA985667FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{221AE46A-0965-4C35-9D37-D683D2BBB290}.Release|x64.Build.0 = Release|x64
 		{221AE46A-0965-4C35-9D37-D683D2BBB290}.Release|x86.ActiveCfg = Release|Win32
 		{221AE46A-0965-4C35-9D37-D683D2BBB290}.Release|x86.Build.0 = Release|Win32
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Debug|x64.ActiveCfg = Debug|x64
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Debug|x64.Build.0 = Debug|x64
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Debug|x86.Build.0 = Debug|Win32
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Release|x64.ActiveCfg = Release|x64
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Release|x64.Build.0 = Release|x64
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Release|x86.ActiveCfg = Release|Win32
+		{4194033B-F187-4572-B5F6-9CCA985667FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
