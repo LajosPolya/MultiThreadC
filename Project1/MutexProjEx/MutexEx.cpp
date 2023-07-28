@@ -11,7 +11,7 @@ std::mutex mu;
 void sharedPrint(std::string message, int id) {
 	/* We shouldn't just use mu alone because if an exception is thrown 
 	   between the lock and unlock then the resource will be locked forever.
-	   So instead use a lock_gaurd and when the gaurd goes out of scope it'll
+	   So instead use a lock_guard and when the gaurd goes out of scope it'll
 	   release the lock
 	*/ 
 	std::lock_guard<std::mutex> gaurd(mu); // RAII
