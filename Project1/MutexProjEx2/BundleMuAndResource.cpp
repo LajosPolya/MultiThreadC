@@ -25,7 +25,7 @@ public:
 	}
 
 	/* Things to Never Do */
-	// Never returm f to the outside world
+	// Never return f to the outside world
 	// ofstream& getStream() { return f; }
 
 	// Never pass f as an argument to a user provided function
